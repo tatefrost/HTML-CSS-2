@@ -1,0 +1,33 @@
+#top-header {
+    height: 20vh;
+    width: 100%;
+    position: fixed;
+    background-color: #808080;
+    z-index: 10;
+
+}
+
+.sides {
+    position: absolute;
+    background-color: lightgray;
+    z-index: 5;
+}
+
+#left-side {
+    height: 100%;
+    width: 175px;
+}
+
+#right-side {
+    height: 100%;
+    width: 175px;
+    right: 0px;
+}
+
+#bottom-footer {
+    background-color: black;
+    height: 10%;
+    width: 100%;
+    position: fixed;
+    bottom: 0px
+}

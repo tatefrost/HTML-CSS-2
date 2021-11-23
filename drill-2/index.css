@@ -1,0 +1,84 @@
+#top-box {
+  position: relative;
+  height: 200px;
+  width: 90%;
+  border: solid 5px black;
+  margin: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#middle-box {
+  position: relative;
+  height: 200px;
+  width: 90%;
+  border: dotted 5px black;
+  top: 75px;
+  margin: 50px;
+  margin-right: auto;
+  margin-left: auto;
+
+}
+
+#bottom-box {
+  position: relative;
+  height: 400px;
+  width: 40%;
+  border: solid 2px lightgray;
+  top: 75px;
+  margin: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  box-shadow:3px 5px rgba(211, 211, 211, 0.459);
+
+}
+
+#hello {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: blue;
+    font-size: 80px;
+    font-weight: 200;
+    position: relative;
+    margin-left: 40%;
+    margin-right: 50%;
+    bottom: 300px;
+}
+
+#purple-box {
+    position: absolute; 
+    height: 150px;
+    width: 80px;
+    background-color: purple;
+    top: 100px;
+    left: 100px;
+}
+
+#green-box {
+    position: absolute;
+    background-color: green;
+    height: 180px;
+    width: 300px;
+    top: 70px;
+    left: 250px;
+}
+
+#blue-circle {
+    position: absolute;
+    background-color: lightblue;
+    border-radius: 50%;
+    height: 170px;
+    width: 170px;
+    top: 70px;
+    bottom: 70px;
+    left: 700px;
+}
+
+#tan-box {
+    position: absolute;
+    background-color: bisque;
+    height: 180px;
+    width: 1200px;
+    top: 400px;
+    left: 100px;
+    box-shadow: 5px 5px rgba(128, 128, 128, 0.192);
+}
